@@ -13,4 +13,5 @@ router.register(r'salles', SalleViewsSet, basename='salle')
 router.register(r'reservations', ReservationViewSet, basename='reservation')
 urlpatterns = [
     path('', include(router.urls)),
+
 ]
